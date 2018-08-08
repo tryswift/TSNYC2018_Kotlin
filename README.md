@@ -17,7 +17,7 @@
 8. click on Finish
 
 
-##download latest sdk
+## download latest sdk
 during install you should see a dialog asking which sdk you want to install, choose API 28
 if you don't see this dialog, once the app has installed, 
   1. open Android Studio and go to `Tools > SDK Manager`
@@ -26,7 +26,7 @@ if you don't see this dialog, once the app has installed,
   4. once the API has finished downloading click ok
 
 
-##create virtual device
+## create virtual device
 during install you should see a dialog asking if you want to create a virtual device
 if you don't see this dialog, 
   1. go to `Tools > AVD Manager`
