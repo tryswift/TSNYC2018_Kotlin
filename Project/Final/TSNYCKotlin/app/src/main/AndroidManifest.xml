@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jonbott.tsnyc_kotlin">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="com.jonbott.datalayerexample.SimpleApp"
         android:allowBackup="true"
@@ -21,7 +23,8 @@
         <activity android:name=".ii_KotlinComparison.KotlinComparisonActivity" />
         <activity android:name=".iii_DataLayer.DataLayerActivity" />
         <activity android:name=".iv_Threading.ThreadingActivity" />
-        <activity android:name=".v_AndroidUI.UIActivity"></activity>
+        <activity android:name=".v_AndroidUI.UIActivity" />
+        <activity android:name=".v_AndroidUI.Recycler.SpyListActivity" />
     </application>
 
 </manifest>

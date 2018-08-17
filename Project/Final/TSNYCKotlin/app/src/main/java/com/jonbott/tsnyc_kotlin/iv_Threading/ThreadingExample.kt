@@ -3,6 +3,9 @@ package com.jonbott.tsnyc_kotlin.iv_Threading
 import android.os.AsyncTask
 import com.jonbott.kotlincomparison.Utilities.Threading
 import io.reactivex.disposables.CompositeDisposable
+import kotlinx.coroutines.experimental.android.UI
+import kotlinx.coroutines.experimental.delay
+import kotlinx.coroutines.experimental.launch
 
 object ThreadingExample {
     private val bag = CompositeDisposable()
@@ -49,8 +52,17 @@ object ThreadingExample {
         bag.add(disposable)
     }
 
-    fun threading_coroutines() {
 
+    //Suggested guide: https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md#coroutine-basics
+    fun threading_coroutines() {
+        launch {
+            println("🦄 Starting: co-routines")
+            delay(2000)
+
+            launch(UI) {
+                println("🧙‍♂️Finished")
+            }
+        }
     }
 
     private fun doSomething() {

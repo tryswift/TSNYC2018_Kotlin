@@ -15,7 +15,8 @@ class ThreadingActivity : AppCompatActivity() {
 
     private fun runThreadingExamples() {
 //        ThreadingExample.threading_oldSchool()
-        ThreadingExample.threading_RxJava()
+//        ThreadingExample.threading_RxJava()
+        ThreadingExample.threading_coroutines()
     }
 
     override fun onDestroy() {

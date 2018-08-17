@@ -69,3 +69,12 @@ navigate: http://localhost:3000/posts/1
 ```
 
 ## if there are problems you can default to using https://jsonplaceholder.typicode.com/ in your network layer
+
+
+## Citations
+
+Android Simple Lifecycle diagram: https://developer.android.com/guide/components/activities/activity-lifecycle
+Android Complete Lifecycle diagram: https://github.com/xxv/android-lifecycle
+iOS Lifecycle: https://www.safaribooksonline.com/library/view/learning-xamarin-studio/9781783550814/ch06s02.html
+
+
