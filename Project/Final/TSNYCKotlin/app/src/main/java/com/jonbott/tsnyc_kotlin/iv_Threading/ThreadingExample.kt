@@ -1,7 +1,10 @@
 package com.jonbott.tsnyc_kotlin.iv_Threading
 
 import android.os.AsyncTask
+import com.jonbott.Utils.disposedBy
 import com.jonbott.kotlincomparison.Utilities.Threading
+import io.reactivex.Single
+import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import kotlinx.coroutines.experimental.android.UI
 import kotlinx.coroutines.experimental.delay
@@ -50,6 +53,25 @@ object ThreadingExample {
 
         println("Finishing Example02")
         bag.add(disposable)
+    }
+
+    fun threading_RxJava2() {
+        println("Staring Example02")
+
+        Single.fromCallable {
+            //different than when using just return
+            return@fromCallable "some value"
+        }.subscribeOn(AndroidSchedulers.mainThread())
+         .observeOn(AndroidSchedulers.mainThread())
+         .subscribe({ result -> //finished
+              this.doSomething()
+
+              println("Finished: result: $result")
+         }, {
+              //error
+         }).disposedBy(bag)
+
+        println("Finishing Example02")
     }
 
 
