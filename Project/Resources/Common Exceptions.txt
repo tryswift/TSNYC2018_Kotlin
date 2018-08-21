@@ -1,0 +1,22 @@
+//common exceptions
+ArithmeticException
+ArrayIndexOutOfBoundsException
+ClassCastException
+ClassNotFoundException
+CloneNotSupportedException
+IllegalArgumentException
+IllegalMonitorStateException
+IllegalThreadStateException
+IndexOutOfBoundsException
+InterruptedException
+NullPointerException
+NumberFormatException
+
+//util exceptions
+ConcurrentModificationException
+
+//io exceptions
+EOFException
+FileNotFoundException
+IOException
+NotSerializableException

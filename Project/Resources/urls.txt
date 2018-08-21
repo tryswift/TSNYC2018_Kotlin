@@ -1,0 +1,6 @@
+Challenge (local copy available in resources folder):
+	http://nilhcem.com/swift-is-like-kotlin/
+	https://kotlinlang.org/docs/reference/lambdas.html
+
+Retrofit Book:
+	https://leanpub.com/retrofit-love-working-with-apis-on-android
