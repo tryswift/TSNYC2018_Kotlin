@@ -1,0 +1,16 @@
+{
+  "people": [
+    {
+      "name": "Faraz Khonsari",
+      "age": 24
+    },
+    {
+      "name": "John Snow",
+      "age": 28
+    },
+    {
+      "name": "Alex Kindman",
+      "age": 29
+    }
+  ]
+}
