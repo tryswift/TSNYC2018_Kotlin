@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/resumeExperienceCardView"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/jobTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Super Spy"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="@+id/companyTextView"
+            app:layout_constraintTop_toBottomOf="@+id/companyTextView" />
+
+        <TextView
+            android:id="@+id/jobDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis a cras semper auctor. Fermentum leo vel orci porta non pulvinar. Mollis aliquam ut porttitor leo. Interdum consectetur libero id faucibus nisl tincidunt. Morbi tristique senectus et netus. Sed id semper risus in hendrerit gravida rutrum. Porta lorem mollis aliquam ut porttitor. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Sem integer vitae justo eget magna fermentum iaculis. Nam libero justo laoreet sit amet cursus. Non diam phasellus vestibulum lorem sed risus ultricies tristique. Ultrices tincidunt arcu non sodales neque. A arcu cursus vitae congue mauris rhoncus aenean vel. Lacus laoreet non curabitur gravida arcu.  Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Elementum sagittis vitae et leo duis ut diam. Quam pellentesque nec nam aliquam sem et tortor. Non diam phasellus vestibulum lorem. Nisl purus in mollis nunc sed. Ac tincidunt vitae semper quis lectus nulla at volutpat. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Orci ac auctor augue mauris augue neque gravida. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Cursus in hac habitasse platea dictumst quisque. Nisl suscipit adipiscing bibendum est ultricies integer quis. Sed sed risus pretium quam vulputate dignissim. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Viverra accumsan in nisl nisi. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Orci nulla pellentesque dignissim enim sit amet venenatis urna. Risus pretium quam vulputate dignissim. Ut sem nulla pharetra diam. Turpis in eu mi bibendum neque egestas congue quisque egestas.  Vel turpis nunc eget lorem dolor. Massa id neque aliquam vestibulum. Eu lobortis elementum nibh tellus molestie nunc. Diam vel quam elementum pulvinar etiam non. Lorem ipsum dolor sit amet consectetur. Enim tortor at auctor urna nunc id cursus metus. In cursus turpis massa tincidunt dui ut ornare lectus. Id volutpat lacus laoreet non curabitur gravida. Ut morbi tincidunt augue interdum velit. Cras sed felis eget velit aliquet. Ut tellus elementum sagittis vitae et leo. Tincidunt vitae semper quis lectus nulla at volutpat. Parturient montes nascetur ridiculus mus mauris vitae. Arcu ac tortor dignissim convallis. Eu sem integer vitae justo eget magna fermentum iaculis. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor.  Et tortor at risus viverra. At urna condimentum mattis pellentesque id nibh tortor. Augue lacus viverra vitae congue eu consequat ac felis donec. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Duis ultricies lacus sed turpis tincidunt id aliquet. Curabitur vitae nunc sed velit dignissim sodales ut. Nullam vehicula ipsum a arcu cursus vitae. Feugiat sed lectus vestibulum mattis ullamcorper. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Ut venenatis tellus in metus vulputate eu scelerisque felis. Mi eget mauris pharetra et. Consectetur a erat nam at lectus. Tortor aliquam nulla facilisi cras fermentum. Id diam maecenas ultricies mi eget mauris pharetra et. Euismod elementum nisi quis eleifend quam. Adipiscing elit ut aliquam purus sit amet luctus venenatis. In arcu cursus euismod quis viverra nibh. Pulvinar etiam non quam lacus. Lectus magna fringilla urna porttitor rhoncus dolor. Eget nunc lobortis mattis aliquam faucibus purus in.  Consectetur a erat nam at lectus urna duis. Tincidunt id aliquet risus feugiat. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Semper feugiat nibh sed pulvinar proin gravida. Aliquam faucibus purus in massa. Quis varius quam quisque id diam. Non tellus orci ac auctor augue mauris augue. Eu consequat ac felis donec et odio pellentesque diam volutpat. Pretium fusce id velit ut tortor pretium viverra suspendisse. Leo vel orci porta non pulvinar neque laoreet suspendisse. Dolor purus non enim praesent elementum facilisis. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. Non sodales neque sodales ut etiam sit amet nisl purus. Elementum facilisis leo vel fringilla est ullamcorper eget."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jobTitleTextView"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/dateRangeRextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:text="August 2004 - Current"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/companyTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/companyTextView" />
+
+        <TextView
+            android:id="@+id/companyTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Acme"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/dateRangeRextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,4 +1,58 @@
 {
+
+  "name": "Jon Bott",
+  "tittle": "Senior iOS/Android Developer at Mercari • Lynda.com Author • Professional Photographer",
+  "summary" : "I have a large range of experience from front-end development (iOS, Android, Web) to back-end, both in large-scale commercial apps and educational apps. I have worked with media creation (video, audio), as well as developed on platforms for streaming and consuming that media. I am also a professional photographer (weddings, portraits, non-profits, events, & travel).",
+
+  "skills": [
+    "Mobile (6+ years): iOS [Swift, Objective-C, C, C++], Android [Java, Kotlin]",
+    "Photography & Film (5+ years): @Herbal7ea",
+    "API & Back-end Services (10+ years)",
+    "Web (15+ years)"
+  ],
+
+  "current": [
+    {
+      "company": "MERCARI (メルカリ), Tokyo Japan",
+      "title": "Senior iOS Developer",
+      "dateRange": "July 2018 - Current",
+      "description": "• Developing Japanese e-commerce application\n•Improving Developer On-boarding Processes\n*Working in Architectural Discussions for both iOS & Android"
+    },
+    {
+      "company": "LINKEDIN LEARNING (Lynda.com)",
+      "title": "Author",
+      "dateRange": "June 2016 - Current",
+      "description": "• Developing Educational courses\n• Developed various courses including:\n o Advanced Xcode Debugging Tools for memory, threading, and accessibility\n  o Enterprise Core Data: reducing confusion and bugs within your Data Layer\n  o Enterprise Architectures for both iOS & Android\n o Kotlin for iOS developers\n o RxSwift Design Patterns for iOS\n o Reactive Programming (RxJava/RxKotlin) for Android"
+    },
+    {
+      "company": "JONBOTT.COM",
+      "title": "Videographer/Photographer",
+      "dateRange": "August 2004 - Current",
+      "description": "• Photographing Weddings, Portraits, Headshots & Non-Profit work\n• Filmed/photographed internationally for Rising Star, a non-profit organization\n• Filmed instructional videos & developed mobile apps for how2dance.com"
+    }
+  ],
+
+  "previous": [
+    {
+      "company": "ANCESTRY.COM, Provo Utah",
+      "title": "Senior iOS/Android Developer",
+      "dateRange": "September 2014 – February 2018",
+      "description": "• Worked on Apple award winning genealogy app with monthly release cadence\n• Lead team in the adoption of a test-driven processes and enterprise architecture\n• Developed back-end services for mobile and web app consumption"
+    },
+    {
+      "company": "1800CONTACTS / GLASSES.COM, Draper Utah",
+      "title": "Team Lead/Technical Manager (Mobile) – Glasses.com",
+      "dateRange": "January 2014 – September 2014",
+      "description": "• Coordinated development between Luxottica’s child companies and in-house teams\n• Developed mobile applications (iPhone&iPad/Android) ~$14K/wk."
+    },
+    {
+      "company": "1800CONTACTS / GLASSES.COM, Draper Utah",
+      "title": "Senior Developer (Mobile) – 1800Contacts/Glasses.com",
+      "dateRange": "September 2012 – January 2014",
+      "description": "• Developed mobile applications (iOS & Android ) ~$14M/yr.\n• Developed restful services to support Mobile Apps (iOS/Android) [.NET]\n• Developed mobile/responsive website\n• Developed using TDD [Test Driven Development]"
+    }
+  ],
+
   "people": [
     {
       "name": "Faraz Khonsari",
@@ -13,4 +67,5 @@
       "age": 29
     }
   ]
+
 }
