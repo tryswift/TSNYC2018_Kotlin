@@ -7,14 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.jonbott.androidui.Helpers.ImageHelper
 import com.jonbott.portfolio.R
-
-data class Header(
-        val imageName: String,
-        val nameText: String,
-        val emailText: String,
-        val phoneText: String,
-        val handleText: String
-)
+import com.jonbott.portfolio.RecyclerResume.Entities.ResumeHeader
 
 
 class ResumeHeaderViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -36,13 +29,13 @@ class ResumeHeaderViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
         handleTextView = itemView.findViewById(R.id.handleTextView)
     }
 
-    fun configureWith(header: Header) {
-        nameTextView.text = header.nameText
-        emailTextView.text = header.emailText
-        phoneTextView.text = header.phoneText
-        handleTextView.text = header.handleText
+    fun configureWith(resumeHeader: ResumeHeader) {
+        nameTextView.text = resumeHeader.nameText
+        emailTextView.text = resumeHeader.emailText
+        phoneTextView.text = resumeHeader.phoneText
+        handleTextView.text = resumeHeader.handleText
 
-        val imageId = ImageHelper.resourceIdWith(context, header.imageName)
+        val imageId = ImageHelper.resourceIdWith(context, resumeHeader.imageName)
         if (imageId != 0) {
             imageView.setImageResource(imageId)
         }

@@ -13,7 +13,7 @@ class ResumeGeneralViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView
     val generalTextView: TextView
 
     init {
-        cardView = itemView.findViewById(R.id.headerCardView)
+        cardView = itemView.findViewById(R.id.generalCellCardView)
         generalTextView = itemView.findViewById(R.id.generalTextView)
     }
 
@@ -21,3 +21,4 @@ class ResumeGeneralViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView
         generalTextView.text = info
     }
 }
+
